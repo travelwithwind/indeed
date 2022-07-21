@@ -1,0 +1,42 @@
+{
+    "name": "My Indeed Form Filler",
+    "version": "0.1.0",
+    "description": "Auto complete job application forms",
+    "permissions": ["storage", "tabs", "webNavigation"],
+    "host_permissions": ["https://*.indeed.com/*"],
+    "background": {
+      "service_worker": "background.js",
+      "type": "module"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://*.indeed.com/*"],
+        "js": ["contentScript.js"]
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "assets/data.json"
+        ],
+        "matches": ["https://*.indeed.com/*"]
+      }
+    ],
+      "icons": {
+        "16": "assets/icon48.png",
+        "24": "assets/icon48.png",
+        "32": "assets/icon48.png",
+        "48": "assets/icon48.png"
+
+    },
+    "manifest_version": 3,
+    "commands": {
+      "_execute_action": {},
+      "apply": {
+        "suggested_key": {
+          "default": "Alt+Shift+E"
+        },
+        "description": "auto apply for job"
+      }
+    }
+}

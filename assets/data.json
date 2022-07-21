@@ -1,0 +1,26 @@
+{
+  "input-firstName": {
+    "answer": "Rich"
+  },
+
+  "input-lastName": {
+    "answer": "Liu"
+  },
+
+  "input-q_97a592e057c70e9bab77ef683b2fe2b9": {
+    "answer": 1,
+    "question": "How many years of HTML, CSS/SaaS & Bootstrap experience do you have?"
+  },
+  "input-q_993f6c2cf99bf86be54f15ecaa0e2e02": {
+    "answer": 1,
+    "question": "How many years of JavaScript experience do you have?"
+  },
+  "input-q_82695fb9c28fc793bf8811cd0c8dc98f": {
+    "answer": 1,
+    "question": "How many years of Python & Django on Linux with PostgreSQL experience do you have?"
+  },
+  "input-q_bcac4bda3f925fdf89d3a8217edc78cf": {
+    "answer": 0,
+    "question": "How many years of Vue.js experience do you have?\nHaving an issue with this application? "
+  }
+}
